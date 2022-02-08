@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MaximusEmployee">
+
+<listeners> 
+	  <listener class-name = "com.maximus.utilities.Reporting"/>
+	<!--<listener class-name = "com.maximus.utilities.Listeners"/>-->
+</listeners> 
+
+	<test thread-count="5" name="Employe Data Test">
+		<classes>
+			 <class name="com.maximus.testcases.GetEmployeeDetails"/> 
+			 <class name="com.maximus.testcases.DataDriven_PostEmployeeRecords"/>
+		</classes>
+	</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

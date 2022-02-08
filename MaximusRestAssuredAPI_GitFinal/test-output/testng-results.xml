@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-06T21:51:09 CST" name="MaximusEmployee" finished-at="2022-02-06T21:54:46 CST" duration-ms="216729">
+    <groups>
+    </groups>
+    <test started-at="2022-02-06T21:51:09 CST" name="Employe Data Test" finished-at="2022-02-06T21:54:46 CST" duration-ms="216729">
+      <class name="com.maximus.testcases.GetEmployeeDetails">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.maximus.testcases.GetEmployeeDetails@3f197a46]" started-at="2022-02-06T21:51:09 CST" name="setUp" finished-at="2022-02-06T21:51:10 CST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getEmployeeDetails()[pri:0, instance:com.maximus.testcases.GetEmployeeDetails@3f197a46]" started-at="2022-02-06T21:51:10 CST" name="getEmployeeDetails" finished-at="2022-02-06T21:51:21 CST" duration-ms="11872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDetails -->
+        <test-method signature="checkContentType()[pri:0, instance:com.maximus.testcases.GetEmployeeDetails@3f197a46]" started-at="2022-02-06T21:51:21 CST" name="checkContentType" finished-at="2022-02-06T21:51:21 CST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkServerType()[pri:0, instance:com.maximus.testcases.GetEmployeeDetails@3f197a46]" started-at="2022-02-06T21:51:22 CST" name="checkServerType" finished-at="2022-02-06T21:51:22 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="getResponseBody()[pri:0, instance:com.maximus.testcases.GetEmployeeDetails@3f197a46]" started-at="2022-02-06T21:51:22 CST" name="getResponseBody" finished-at="2022-02-06T21:51:22 CST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method signature="getStatusCode()[pri:0, instance:com.maximus.testcases.GetEmployeeDetails@3f197a46]" started-at="2022-02-06T21:51:22 CST" name="getStatusCode" finished-at="2022-02-06T21:51:22 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method signature="getStatusLine()[pri:0, instance:com.maximus.testcases.GetEmployeeDetails@3f197a46]" started-at="2022-02-06T21:51:22 CST" name="getStatusLine" finished-at="2022-02-06T21:51:22 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.maximus.testcases.GetEmployeeDetails@3f197a46]" started-at="2022-02-06T21:51:22 CST" name="tearDown" finished-at="2022-02-06T21:51:22 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.maximus.testcases.GetEmployeeDetails -->
+      <class name="com.maximus.testcases.DataDriven_PostEmployeeRecords">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.maximus.testcases.DataDriven_PostEmployeeRecords@4facf68f]" started-at="2022-02-06T21:51:22 CST" name="setUp" finished-at="2022-02-06T21:51:22 CST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postEmpRecords(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maximus.testcases.DataDriven_PostEmployeeRecords@4facf68f]" started-at="2022-02-06T21:51:23 CST" name="postEmpRecords" data-provider="employeeDataForPost" finished-at="2022-02-06T21:52:14 CST" duration-ms="50814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DanXYZ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postEmpRecords -->
+        <test-method signature="postEmpRecords(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maximus.testcases.DataDriven_PostEmployeeRecords@4facf68f]" started-at="2022-02-06T21:52:14 CST" name="postEmpRecords" data-provider="employeeDataForPost" finished-at="2022-02-06T21:53:05 CST" duration-ms="50633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PanABC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45643]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postEmpRecords -->
+        <test-method signature="postEmpRecords(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maximus.testcases.DataDriven_PostEmployeeRecords@4facf68f]" started-at="2022-02-06T21:53:05 CST" name="postEmpRecords" data-provider="employeeDataForPost" finished-at="2022-02-06T21:53:55 CST" duration-ms="50717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TanPQR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45674]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postEmpRecords -->
+        <test-method signature="postEmpRecords(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maximus.testcases.DataDriven_PostEmployeeRecords@4facf68f]" started-at="2022-02-06T21:53:55 CST" name="postEmpRecords" data-provider="employeeDataForPost" finished-at="2022-02-06T21:54:46 CST" duration-ms="50616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PER344]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[76575]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postEmpRecords -->
+        <test-method signature="checkContentType()[pri:2, instance:com.maximus.testcases.DataDriven_PostEmployeeRecords@4facf68f]" started-at="2022-02-06T21:54:46 CST" name="checkContentType" finished-at="2022-02-06T21:54:46 CST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="getResponseBody()[pri:3, instance:com.maximus.testcases.DataDriven_PostEmployeeRecords@4facf68f]" started-at="2022-02-06T21:54:46 CST" name="getResponseBody" finished-at="2022-02-06T21:54:46 CST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method signature="getStatusCode()[pri:4, instance:com.maximus.testcases.DataDriven_PostEmployeeRecords@4facf68f]" started-at="2022-02-06T21:54:46 CST" name="getStatusCode" finished-at="2022-02-06T21:54:46 CST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method signature="getStatusLine()[pri:5, instance:com.maximus.testcases.DataDriven_PostEmployeeRecords@4facf68f]" started-at="2022-02-06T21:54:46 CST" name="getStatusLine" finished-at="2022-02-06T21:54:46 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusLine -->
+        <test-method signature="checkServerType()[pri:6, instance:com.maximus.testcases.DataDriven_PostEmployeeRecords@4facf68f]" started-at="2022-02-06T21:54:46 CST" name="checkServerType" finished-at="2022-02-06T21:54:46 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.maximus.testcases.DataDriven_PostEmployeeRecords@4facf68f]" started-at="2022-02-06T21:54:46 CST" name="tearDown" finished-at="2022-02-06T21:54:46 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.maximus.testcases.DataDriven_PostEmployeeRecords -->
+    </test> <!-- Employe Data Test -->
+  </suite> <!-- MaximusEmployee -->
+</testng-results>
